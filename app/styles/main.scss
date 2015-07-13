@@ -295,3 +295,51 @@
     margin-left : 45px;
     color:green;
 }
+
+ @media only screen and (max-width:768px){
+    .mobile-view {
+        display: none;
+    }
+
+    .mobile-position {
+        padding-left:45%;
+    }
+
+    #percentage {
+        margin-top:35px;
+    }
+
+    #desktop    {
+        display : none;
+    }
+
+    #mobile{
+        .blade-view {
+            min-height:2px;
+        }
+    }
+
+    .cluster-link    {
+        display:block;
+        width:700px;
+    }
+
+    .heading-mobile {
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .row-height {
+        height: 25px;
+    }
+
+    .set-padding{
+        padding-right:2px;
+    }
+}
+
+@media only screen and (min-width:769px){
+    #mobile   {
+        display : none;
+    }
+    
+}
